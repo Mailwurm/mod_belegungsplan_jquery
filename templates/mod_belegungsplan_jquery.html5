@@ -52,7 +52,7 @@
 			if(Days) {
 				str += '<thead>';
 				str += '	<tr>';
-				str += '		<th></th>';
+				str += '		<th><span class="frei"><?= $this->Frei ?></span>&nbsp;<span class="belegt"><?= $this->Belegt ?></span></th>';
 				$.each(Days, function(key, value) {
 					var clas = value.Class ? ' class="' + value.Class + '"' : '';
 					var title = value.Holiday ? ' title="' + value.Holiday + '"' : '';
