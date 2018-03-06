@@ -46,11 +46,13 @@ table.belegungsplan-table-dialog>tbody>tr.belegCategory>th {
     cursor: pointer;
 }
 .mod-belegungsplan-jquery>tbody>tr>td.frei,
-.belegungsplan-table-dialog>tbody>tr>td.frei {
+.belegungsplan-table-dialog>tbody>tr>td.frei,
+span.frei{
     background-color:#4CAE4C;
 }
 .mod-belegungsplan-jquery>tbody>tr>td.belegt,
-.belegungsplan-table-dialog>tbody>tr>td.belegt {
+.belegungsplan-table-dialog>tbody>tr>td.belegt,
+span.belegt{
     background-color:#D43F3A;
     border-right:0px;
 }
@@ -85,4 +87,11 @@ table.belegungsplan-table-dialog>tbody>tr.belegCategory>th {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d43f3a', endColorstr='#4cae4c',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */;
+}
+span.frei,
+span.belegt {
+    margin-right:3px;
+    margin-left:3px;
+    padding:5px;
+    color:#FFF;
 }
