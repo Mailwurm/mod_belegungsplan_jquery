@@ -1,4 +1,7 @@
 # mod_belegungsplan_jquery
+
+Dieses Template ist im Belegungsplan-Bundle ab v3.0.0 bereits enthalten
+
 Template für das Belegungsplan-Bundle bei Verwendung von jQuery
 
 jQuery UI im Header einbinden
